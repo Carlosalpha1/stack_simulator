@@ -1,5 +1,6 @@
 # stack_simulator
 This stack simulator serves to understand what the stack consists of as a data structure
+- Free software.
 
 # requirements
 SFML Library
@@ -13,3 +14,4 @@ sudo apt-get install libsfml-dev
  g++ -o main *.cpp -lsfml-graphics -lsfml-window -lsfml-system
 ~~~
 
+Developer: Carlosalpha1
