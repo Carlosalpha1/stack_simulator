@@ -2,7 +2,7 @@
 This stack simulator (using C++) serves to understand what the stack consists of as a data structure
 - Free software.
 
-![Alt text](https://raw.githubusercontent.com/Carlosalpha1/stack_simulator/master/images/capture.jpg?raw=true "Rosco de Jugador 1")
+![Alt text](https://raw.githubusercontent.com/Carlosalpha1/stack_simulator/master/images/capture.jpg?raw=true "STACK SIMULATOR")
 
 # requirements
 SFML Library
