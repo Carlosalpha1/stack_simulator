@@ -1,5 +1,5 @@
 # stack_simulator
-This stack simulator serves to understand what the stack consists of as a data structure
+This stack simulator (using C++) serves to understand what the stack consists of as a data structure
 - Free software.
 
 # requirements
