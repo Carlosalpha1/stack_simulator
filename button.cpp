@@ -8,23 +8,21 @@ void Button::createButton()
     setOutlineColor(sf::Color::Black);
     setOutlineThickness(2);
     is_pressed_ = false;
-    setPosition(x_, y_);
 }
 
 Button::Button(float radius)
     : sf::CircleShape(radius)
 {
-    x_ = y_ = 0;
-    radius_ = radius;
+    setRadius(radius);
+    setPosition(0, 0);
     createButton();
 }
 
 Button::Button(int x, int y, float radius)
     : sf::CircleShape(radius)
 {
-    x_ = x;
-    y_ = y;
-    radius_ = radius;
+    setRadius(radius);
+    setPosition(x, y);
     createButton();
 }
 

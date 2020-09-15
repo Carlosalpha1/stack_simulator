@@ -8,8 +8,6 @@ private:
     sf::Color color_not_pressed_;
     sf::Color color_pressed_;
     bool is_pressed_;
-    int x_, y_;
-    float radius_;
 
     void createButton();
 
@@ -17,9 +15,8 @@ public:
     Button(float radius);
     Button(int x, int y, float radius);
     void set_pressed(bool status);
-    int getX() const { return x_; }
-    int getY() const { return y_; }
-    int getRadius() const { return radius_; }
+    int getX() const { return getPosition().x; }
+    int getY() const { return getPosition().y; }
 };
 
 #endif
