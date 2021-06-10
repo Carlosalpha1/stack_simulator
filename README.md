@@ -13,7 +13,10 @@ sudo apt-get install libsfml-dev
 
 # compilation
 ~~~
- g++ -o main *.cpp -lsfml-graphics -lsfml-window -lsfml-system
+ mkdir build
+ cd build
+ cmake ..
+ make -j8
 ~~~
 
 Developer: Carlosalpha1

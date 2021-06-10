@@ -21,7 +21,7 @@ int main()
     Button button_pop(420, 120, 20);
 
     sf::Font font;
-    font.loadFromFile("font/textcell.TTF");
+    font.loadFromFile("../font/textcell.TTF");
     sf::Text text_push("PUSH", font, 22);
     sf::Text text_pop("POP", font, 22);
     text_push.setFillColor(sf::Color(18, 229, 239));

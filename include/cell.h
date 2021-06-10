@@ -4,7 +4,7 @@
 #include <string>
 #include <SFML/Graphics.hpp>
 
-static const std::string font_route = "font/textcell.TTF";
+static const std::string font_route = "../font/textcell.TTF";
 
 class Cell : public sf::RectangleShape
 {
